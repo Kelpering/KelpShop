@@ -1,0 +1,41 @@
+:root
+{
+    /*Add colors here*/
+}
+
+nav
+{
+    width:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    background-color:limegreen;
+    /* color:darkgreen; */
+    height:50px;
+}
+
+nav ul
+{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+
+nav ul li
+{
+    display:inline;
+}
+
+nav ul li a
+{
+    text-decoration:none;
+    padding:14px 16px;
+    text-align:center;
+
+}
+
+.active
+{
+    background-color:darkGreen;
+}
