@@ -1,17 +1,22 @@
+/* * {
+
+} */
+
 :root
 {
-    /*Add colors here*/
+    /*Fix colors here, template is fine though*/
+    --green: green; 
+    --darkGreen: seaGreen;
+    --navText: white;
+    --navSelect:black;
 }
 
 nav
 {
-    width:100%;
     position:fixed;
     top:0;
     left:0;
-    background-color:limegreen;
-    /* color:darkgreen; */
-    height:50px;
+    width:100%;
 }
 
 nav ul
@@ -20,22 +25,38 @@ nav ul
     margin:0;
     padding:0;
     overflow:hidden;
+    background-color:var(--green);
 }
 
-nav ul li
+nav li
 {
-    display:inline;
+    float:left;
+    border-right:1px solid white;
 }
 
-nav ul li a
+nav li:hover:not(.active)
 {
-    text-decoration:none;
+    background-color:var(--darkGreen);
+}
+
+nav li:last-child
+{
+    float:right;
+    border-right:none;
+    border-left:1px solid white;
+}
+
+nav a
+{
+    display:block;
     padding:14px 16px;
+    text-decoration: none;
     text-align:center;
-
+    color:var(--navText);
+    
 }
 
 .active
 {
-    background-color:darkGreen;
+    background-color:var(--navSelect);
 }
