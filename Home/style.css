@@ -9,6 +9,14 @@
     --darkGreen: seaGreen;
     --navText: white;
     --navSelect:black;
+    --background:white;
+}
+
+body
+{
+    padding-top:50px;
+    background-color: var(--background);
+    /*maybe a gradient or something else nice looking?*/
 }
 
 nav
@@ -59,4 +67,40 @@ nav a
 .active
 {
     background-color:var(--navSelect);
+}
+
+/*Navbar End*/
+
+#Intro h1
+{
+    font-size: 50px;
+    text-align:center;
+}
+
+#Intro p
+{
+    font-size:20px;
+    text-align:center;
+}
+
+#About
+{
+    padding:20px;
+}
+
+#PicText
+{
+    overflow:hidden;
+}
+
+#About img
+{
+    float:left;
+    border-style:solid; /*add more border later*/
+    margin-right:10px;
+}
+
+#About p, #About pre
+{
+    font-size:20px;
 }
