@@ -1,6 +1,7 @@
+@import "../Shared/navbar.css"; /*Hopefully can import the navbar settings*/
+/* 
 :root
 {
-    /*Fix colors here, template is fine though*/
     --green: green; 
     --darkGreen: seaGreen;
     --navText: white;
@@ -12,7 +13,6 @@ body
 {
     padding-top:50px;
     background-color: var(--background);
-    /*maybe a gradient or something else nice looking?*/
 }
 
 nav
@@ -63,7 +63,7 @@ nav a
 .active
 {
     background-color:var(--navSelect);
-}
+} */
 
 /*Navbar End*/
 
