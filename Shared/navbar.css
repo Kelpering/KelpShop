@@ -1,9 +1,9 @@
 :root
 {
     /*Fix colors here, template is fine though*/
-    --green: darkgreen; 
+    --green: green; 
     --darkGreen: seaGreen;
-    --navText: white;
+    --navText: black;
     --navSelect:black;
     --background:white;
 }
