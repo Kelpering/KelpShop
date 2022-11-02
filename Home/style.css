@@ -104,3 +104,17 @@ nav a
 {
     font-size:20px;
 }
+
+/*Services*/
+
+.LService
+{
+    float:left;
+    overflow:hidden;
+}
+
+.RService
+{
+    float:right;
+    overflow:hidden;
+}
