@@ -36,14 +36,23 @@
 
 /*Services*/
 
-.LService
+#services
 {
-    float:left;
+    width:100%;
+}
+
+.Service
+{
+    width:100%;
     overflow:hidden;
 }
 
-.RService
+.L
+{
+    float:left;
+}
+
+.R
 {
     float:right;
-    overflow:hidden;
 }
