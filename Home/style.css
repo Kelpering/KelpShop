@@ -45,14 +45,16 @@
 {
     width:100%;
     overflow:hidden;
+    font-size:20px;
 }
 
-.L
+.Service img
 {
     float:left;
+    border-style:solid;
 }
 
-.R
+.Service p
 {
-    float:right;
+    width:90%;
 }
